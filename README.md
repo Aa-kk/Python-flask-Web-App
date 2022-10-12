@@ -4,4 +4,4 @@ How To Run
 in your virtenv/container
 pip install -r requirements.txt
 
-flask run
+run the main.py
