@@ -1,10 +1,11 @@
 import mysql.connector
-
+import variables
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="password2022"
-)
+    host=variables.host,
+    user=variables.user,
+    password=variables.password,
+    database=variables.database
+    )  
 mycursor = mydb.cursor()
 
 mycursor.execute("CREATE DATABASE phrasedb")

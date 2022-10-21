@@ -1,14 +1,14 @@
 import mysql.connector
 import requests
 import yaml
-
+import variables
 
 mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="phrasedb"
-)
+    host=variables.host,
+    user=variables.user,
+    password=variables.password,
+    database=variables.database
+    )
 
 mycursor = mydb.cursor()
 
