@@ -1,5 +1,5 @@
 
-host="localhost"
+host="ENDPOINT OF YOUR RDS DB"
 user="root"
-password="password2022"
-database="phrasedb"
+password="YOUR PASSWORD"
+database="YOUR DATABASE NAME"
