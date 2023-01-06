@@ -1,4 +1,4 @@
-App for querying apis
+# web app that displays tech savvy quotes.
 this repo contains files and instructions for deploying the app both locally and on the cloud (public)
 
 How To Run
